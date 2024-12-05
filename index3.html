@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index3.css">
+    <title>Компьютеры</title>
+</head>
+<body>
+    <div class="container">
+        <button  onclick="aaa()"  id="shopNow" class="btn">Əsas sahifə</button>
+        <button  id="openModal" class="btn2">Yeni komputer</button>
+
+        <table id="computers-table">
+            <thead>
+                <tr>
+                    <th>Nomerə</th>
+                    <th>Ad</th>
+                    <th>Şəkil</th>
+                    <th>Qiymət</th>
+                    <th>Əmaliyyatlar</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+
+        <div id="myModal" class="modal">
+            <div class="modal-content">
+                
+                <div class="form-section">
+                    <label for="input1">adı</label><br>
+                    <input type="text" id="computerName"><br>
+                    <label for="input2">Nomerə:</label><br>
+                    <input type="number" id="computerId"><br>
+                    <label for="input3">Şəkil (URL):</label><br>
+                    <input type="text" id="computerImage"><br>
+                    <label for="input4">Qiymət:</label><br>
+                    <input type="text" id="computerPrice"><br>
+                    <label for="input5">Təsvir:</label><br>
+                    <input type="text" id="input5"><br>
+                    <label for="input6">Yeni:</label><br>
+                    <input type="text" id="input6"><br>
+                    <button  id="addComputer">Əlavə et</button>
+                </div>
+              
+                <div class="form-section">
+                    <label for="input7">Əməli yaddaş (GB):</label>
+                    <input type="text" id="input7"><br>
+                    <label for="input8">Mərkəzi prosesor:</label>
+                    <input type="text" id="input8"><br>
+                    <label for="input9">Daimi yaddaş (GB):</label>
+                    <input type="text" id="input9"><br>
+                    <label for="input10">Daimi yaddaş  tipi:</label>
+                    <input type="text" id="input10"><br>
+                    <label for="input11">Əmaliyyat sistemi:</label>
+                    <input type="text" id="input11"><br>
+                    <label for="input12">Video kart (GB):</label>
+                    <input type="text" id="input12"><br>
+                </div>
+                <span id="closeModal" class="close">&times;</span>
+            </div>
+        </div>
+        
+<script src="index3.js"></script>
+
+</body>
+</html>

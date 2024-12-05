@@ -1,0 +1,111 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Модальное окно</title>
+    <style>
+        /* Стили для модального окна */
+        .modal {
+            display: none; /* Скрыто по умолчанию */
+            position: fixed;
+            z-index: 1;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            overflow: auto;
+            background-color: rgb(0,0,0);
+            background-color: rgba(0,0,0,0.4);
+            padding-top: 60px;
+        }
+        .modal-content {
+            background-color: #fefefe;
+            margin: 5% auto;
+            padding: 20px;
+            border: 1px solid #888;
+            width: 40%;
+            display: flex;
+        }
+        .form-section {
+            flex: 1;
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<button id="openModal">Открыть модальное окно</button>
+
+<!-- Модальное окно -->
+<div id="myModal" class="modal">
+    <div class="modal-content">
+        <div class="form-section">
+            <label for="input1">1 инпут - и1</label>
+            <input type="text" id="input1"><br>
+            <label for="input2">2 инпут - и2</label>
+            <input type="text" id="input2"><br>
+            <label for="input3">3 инпут - и3</label>
+            <input type="text" id="input3"><br>
+            <label for="input4">4 инпут - и4</label>
+            <input type="text" id="input4"><br>
+            <label for="input5">5 инпут - и5</label>
+            <input type="text" id="input5"><br>
+            <label for="input6">6 инпут - и6</label>
+            <input type="text" id="input6"><br>
+            <button>sss</button>
+        </div>
+        
+        <div class="form-section">
+            <label for="input7">7 инпут - и7</label>
+            <input type="text" id="input7"><br>
+            <label for="input8">8 инпут - и8</label>
+            <input type="text" id="input8"><br>
+            <label for="input9">9 инпут - и9</label>
+            <input type="text" id="input9"><br>
+            <label for="input10">10 инпут - и10</label>
+            <input type="text" id="input10"><br>
+            <label for="input11">11 инпут - и11</label>
+            <input type="text" id="input11"><br>
+            <label for="input12">12 инпут - и12</label>
+            <input type="text" id="input12"><br>
+        </div>
+    </div>
+</div>
+
+<script>
+    // Открытие модального окна
+    document.getElementById('openModal').onclick = function() {
+        document.getElementById('myModal').style.display = "block";
+    }
+
+    // Закрытие модального окна при клике вне его
+    window.onclick = function(event) {
+        if (event.target == document.getElementById('myModal')) {
+            document.getElementById('myModal').style.display = "none";
+        }
+    }
+</script>
+
+</body>
+</html>
+
+<div id="myModal" class="modal">
+    <form id="computerForm">
+    <div class="modal-content">
+        <span id="closeModal" class="close">&times;</span>
+        <label for="computerName">adı</label><br>
+        <input type="text" id="computerName"><br>
+        <label for="computerId">Nomerə:</label><br>
+        <input type="number" id="computerId"><br>
+        <label for="computerImage">Şəkil (URL):</label><br>
+        <input type="text" id="computerImage"><br>
+        <label for="computerPrice">Qiymət:</label><br>
+        <input type="number" id="computerPrice"><br>
+        <button  id="addComputer">Əlavə et</button>
+    
+     </form>
+    </div>
+</div>
+</div>

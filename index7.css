@@ -1,0 +1,110 @@
+body {
+    font-family: Arial, sans-serif;
+    /* display: flex; */
+    /* justify-content: center; */
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+.container {
+    display: flex;
+    margin-top: 10px;
+}
+#search-container {
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+}
+#search-container input {
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 16px;
+    width: 200px;
+}
+.brand {
+    background-color: #8000ff;
+    padding: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    border: 1px solid #8d7cff;
+    text-align: center;
+    font-weight: bold;
+   
+}
+.brand:hover {
+    background-color: #b2bec3;
+}
+#computers-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.computer {
+    background-color: white;
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    margin-top:40px ;
+}
+.computer img {
+    width: 100%;
+    height: 100px;
+    object-fit: contain;
+}
+.computer-details {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    border: 2px solid #ccc;
+    padding: 20px;
+    width: 250px;
+    height: 300px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow-y: auto;
+    z-index: 10;
+    
+}
+.computer-details.open {
+    display: block;
+}
+.computer .details-btn {
+    background-color: #0984e3;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+.computer .details-btn:hover {
+    background-color: #74b9ff;
+}
+.btt{
+    width:150px ;
+    padding: 10px;
+    height: 50px;
+   border-radius:5px ;
+    background-color: #00ff33;
+   
+
+}
+.hp1 {
+ display: block;
+}
+.computer-item{
+    background-color: #ffffff;
+    padding: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    border: 1px solid #989292;
+    text-align: center;
+    font-weight: bold;
+    margin-left:30px ;
+    z-index: 10;
+    width:180px ;
+    height:210px ;
+    margin-top:55px ;
+}
+
