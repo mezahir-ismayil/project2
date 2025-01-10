@@ -1,11 +1,15 @@
 body {
     font-family: Arial, sans-serif;
     background: url(https://avatars.mds.yandex.net/get-altay/5485499/2a0000017ce48a07587018ec6f3fd911c2ef/XXL);
-    width: 100%;
+    width: 100vw;
+    overflow:hidden;
     color: #000000;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
     height: 100vh;
 }
 .form-container {

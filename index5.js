@@ -236,25 +236,62 @@ function showComputers(brand) {
     });
 }
 
+function showComputersDefault(brand) {
+    const computersList = document.getElementById('computers-list');
+    // computersList.innerHTML = ''; // Clear previous results
+
+    const computers = computersData[brand];
+    computers.forEach(computer => {
+        const computerDiv = document.createElement('div');
+        computerDiv.classList.add('computer');
+        computerDiv.innerHTML = `
+            <img src="${computer.img}" alt="${computer.name}">
+            <h3>${computer.name}</h3>
+            <p>${computer.specs}</p>
+            
+            <button class="details-btn" onclick="showDetails('${brand}', '${computer.name}')">Подробнее</button>
+            
+        `;
+        computersList.appendChild(computerDiv);
+    });
+}
+showComputersDefault("HP");
+
+
+
+let all = document.getElementById("all");
+let compList = document.getElementById("computers-list");
+
 function showDetails(brand, modelName) {
     const computerDetails = document.getElementById('computer-details');
     const computer = computersData[brand].find(c => c.name === modelName);
     computerDetails.innerHTML = `
    
+    <button  class="btt" onclick="closeWin()">Exit</button>
         <h3>${computer.name}</h3>
         <img src="${computer.img}" alt="${computer.name}">
-        <p><strong>Характеристики:</strong> ${computer.specs}</p>
-        <p>Полное описание и другие детали...</p>
-         <button  class="btt" onclick="closeWin()">выти</button>
+        <p><strong>Характеристики:</strong> <br> ${computer.specs}</p>
+       
+        <p>Nömrə: <br>
+        +994-050-621-5056</p>
     `;
     computerDetails.classList.add('open');
+    all.classList.add("open");
+    compList.classList.add("st");
 }
+
+
+
 
 function startShopping(){
     window.location.href = "index.html";
 };
 
 
+const computersLis = document.getElementById('computer-details');
 function closeWin() {
-    window.location.href = "index5.html";
+    computersLis.classList.remove("open");
+    all.classList.remove("open");
+    compList.classList.remove("st");
+    // window.location.href = "index5.html";
 }

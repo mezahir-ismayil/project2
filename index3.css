@@ -18,7 +18,14 @@
     border: 1px solid #888;
     width: 30%;
 }
-
+#addComputer {
+    background-color: yellow;
+    border-radius: 5px;
+    padding: 10px;
+    width: 130px;
+    border: solid 1px grey;
+    margin-top: 20px;
+}
 .close {
     color: #aaa;
     float: right;
@@ -43,15 +50,24 @@ th, td {
     text-align: left;
 }
 .btn{
-    height:30px ;
+    /* height:30px ; */
     border-radius:5px ;
     background-color: rgb(242, 255, 0);
+    border: solid grey 1px;
+    cursor: pointer;
+    padding: 15px;
+    width: 150px;
 
 }
 .btn2{
-    height:30px ;
+    /* height:30px ; */
     border-radius:5px ;
     background-color: rgb(43, 0, 255);
+    border: solid grey 1px;
+    padding: 15px;
+    cursor: pointer;
+    width: 150px;
+    color: white;
 }
 
    /* Стили для модального окна */
@@ -68,13 +84,31 @@ th, td {
     background-color: rgba(0,0,0,0.4);
     padding-top: 60px;
 }
+.form-section  select {
+    padding: 5px;
+    outline: none;
+    border: solid 1px grey;
+    margin-top: 8px;
+    width: 411px;
+    border-radius: 5px;
+}
 .modal-content {
     background-color: #fefefe;
     margin: 5% auto;
-    padding: 20px;
-    border: 1px solid #888;
-    width: 40%;
+    padding: 50px;
     display: flex;
+    /* align-items: center; */
+    border: 1px solid #888;
+    width: 62%;
+    height: 55%;
+}
+.modal-content input {
+    width: 400px;
+    padding: 5px;
+    border-radius: 5px;
+    border: solid 1px grey;
+    outline: none;
+    margin: 7px 0;
 }
 .form-section {
     flex: 1;

@@ -1,25 +1,25 @@
 const computersData = {
     "HP": [
-    { name: "HP Pavilion", specs: "Intel Core i7, 16GB RAM, 512GB SSD", img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMTEXklAgxzJt0zx4qXDVoaL1VtN_oDY7tlw&s" },
-    { name: "HP Pavilion", specs: "Intel Core i7, 16GB RAM, 512GB SSD", img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMTEXklAgxzJt0zx4qXDVoaL1VtN_oDY7tlw&s" },
-    { name: "HP Pavilion", specs: "Intel Core i7, 16GB RAM, 512GB SSD", img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMTEXklAgxzJt0zx4qXDVoaL1VtN_oDY7tlw&s" },
-    { name: "HP Pavilion", specs: "Intel Core i7, 16GB RAM, 512GB SSD", img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMTEXklAgxzJt0zx4qXDVoaL1VtN_oDY7tlw&s" },
-    { name: "HP Pavilion", specs: "Intel Core i7, 16GB RAM, 512GB SSD", img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMTEXklAgxzJt0zx4qXDVoaL1VtN_oDY7tlw&s" },
-    { name: "HP Pavilion", specs: "Intel Core i7, 16GB RAM, 512GB SSD", img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMTEXklAgxzJt0zx4qXDVoaL1VtN_oDY7tlw&s" },
-    { name: "HP Pavilion", specs: "Intel Core i7, 16GB RAM, 512GB SSD", img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMTEXklAgxzJt0zx4qXDVoaL1VtN_oDY7tlw&s" },
-    { name: "HP Pavilion", specs: "Intel Core i7, 16GB RAM, 512GB SSD", img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMTEXklAgxzJt0zx4qXDVoaL1VtN_oDY7tlw&s" },
-    { name: "HP Pavilion", specs: "Intel Core i7, 16GB RAM, 512GB SSD", img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMTEXklAgxzJt0zx4qXDVoaL1VtN_oDY7tlw&s" },
-    { name: "HP Pavilion", specs: "Intel Core i7, 16GB RAM, 512GB SSD", img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMTEXklAgxzJt0zx4qXDVoaL1VtN_oDY7tlw&s" },
-    { name: "HP Pavilion", specs: "Intel Core i7, 16GB RAM, 512GB SSD", img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMTEXklAgxzJt0zx4qXDVoaL1VtN_oDY7tlw&s" },
-    { name: "HP Pavilion", specs: "Intel Core i7, 16GB RAM, 512GB SSD", img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMTEXklAgxzJt0zx4qXDVoaL1VtN_oDY7tlw&s" },
-    { name: "HP Pavilion", specs: "Intel Core i7, 16GB RAM, 512GB SSD", img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMTEXklAgxzJt0zx4qXDVoaL1VtN_oDY7tlw&s" },
-    { name: "HP Pavilion", specs: "Intel Core i7, 16GB RAM, 512GB SSD", img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMTEXklAgxzJt0zx4qXDVoaL1VtN_oDY7tlw&s" },
-    { name: "HP Pavilion", specs: "Intel Core i7, 16GB RAM, 512GB SSD", img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMTEXklAgxzJt0zx4qXDVoaL1VtN_oDY7tlw&s" },
-    { name: "HP Pavilion", specs: "Intel Core i7, 16GB RAM, 512GB SSD", img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMTEXklAgxzJt0zx4qXDVoaL1VtN_oDY7tlw&s" },
-    { name: "HP Pavilion", specs: "Intel Core i7, 16GB RAM, 512GB SSD", img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMTEXklAgxzJt0zx4qXDVoaL1VtN_oDY7tlw&s" },
-    { name: "HP Pavilion", specs: "Intel Core i7, 16GB RAM, 512GB SSD", img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMTEXklAgxzJt0zx4qXDVoaL1VtN_oDY7tlw&s" },
-    { name: "HP Pavilion", specs: "Intel Core i7, 16GB RAM, 512GB SSD", img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMTEXklAgxzJt0zx4qXDVoaL1VtN_oDY7tlw&s" },
-    { name: "HP Pavilion", specs: "Intel Core i7, 16GB RAM, 512GB SSD", img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMTEXklAgxzJt0zx4qXDVoaL1VtN_oDY7tlw&s" },
+    { name: "HP Pavilion", specs: "Intel Core i7, 16GB RAM, 512GB SSD", img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMTEXklAgxzJt0zx4qXDVoaL1VtN_oDY7tlw&s", price:1999 },
+    { name: "HP Pavilion", specs: "Intel Core i7, 16GB RAM, 512GB SSD", img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMTEXklAgxzJt0zx4qXDVoaL1VtN_oDY7tlw&s",price:1299  },
+    { name: "HP Pavilion", specs: "Intel Core i7, 16GB RAM, 512GB SSD", img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMTEXklAgxzJt0zx4qXDVoaL1VtN_oDY7tlw&s",price:990 },
+    { name: "HP Pavilion", specs: "Intel Core i7, 16GB RAM, 512GB SSD", img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMTEXklAgxzJt0zx4qXDVoaL1VtN_oDY7tlw&s",price:2999 },
+    { name: "HP Pavilion", specs: "Intel Core i7, 16GB RAM, 512GB SSD", img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMTEXklAgxzJt0zx4qXDVoaL1VtN_oDY7tlw&s",price:1999 },
+    { name: "HP Pavilion", specs: "Intel Core i7, 16GB RAM, 512GB SSD", img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMTEXklAgxzJt0zx4qXDVoaL1VtN_oDY7tlw&s",price:1999 },
+    { name: "HP Pavilion", specs: "Intel Core i7, 16GB RAM, 512GB SSD", img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMTEXklAgxzJt0zx4qXDVoaL1VtN_oDY7tlw&s",price:999 },
+    { name: "HP Pavilion", specs: "Intel Core i7, 16GB RAM, 512GB SSD", img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMTEXklAgxzJt0zx4qXDVoaL1VtN_oDY7tlw&s",price:890 },
+    { name: "HP Pavilion", specs: "Intel Core i7, 16GB RAM, 512GB SSD", img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMTEXklAgxzJt0zx4qXDVoaL1VtN_oDY7tlw&s",price:2290 },
+    { name: "HP Pavilion", specs: "Intel Core i7, 16GB RAM, 512GB SSD", img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMTEXklAgxzJt0zx4qXDVoaL1VtN_oDY7tlw&s",price:999 },
+    { name: "HP Pavilion", specs: "Intel Core i7, 16GB RAM, 512GB SSD", img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMTEXklAgxzJt0zx4qXDVoaL1VtN_oDY7tlw&s",price:1990 },
+    { name: "HP Pavilion", specs: "Intel Core i7, 16GB RAM, 512GB SSD", img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMTEXklAgxzJt0zx4qXDVoaL1VtN_oDY7tlw&s",price:1999 },
+    { name: "HP Pavilion", specs: "Intel Core i7, 16GB RAM, 512GB SSD", img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMTEXklAgxzJt0zx4qXDVoaL1VtN_oDY7tlw&s",price:1979 },
+    { name: "HP Pavilion", specs: "Intel Core i7, 16GB RAM, 512GB SSD", img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMTEXklAgxzJt0zx4qXDVoaL1VtN_oDY7tlw&s",price:1799 },
+    { name: "HP Pavilion", specs: "Intel Core i7, 16GB RAM, 512GB SSD", img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMTEXklAgxzJt0zx4qXDVoaL1VtN_oDY7tlw&s",price:699 },
+    { name: "HP Pavilion", specs: "Intel Core i7, 16GB RAM, 512GB SSD", img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMTEXklAgxzJt0zx4qXDVoaL1VtN_oDY7tlw&s",price:1699 },
+    { name: "HP Pavilion", specs: "Intel Core i7, 16GB RAM, 512GB SSD", img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMTEXklAgxzJt0zx4qXDVoaL1VtN_oDY7tlw&s",price:1599 },
+    { name: "HP Pavilion", specs: "Intel Core i7, 16GB RAM, 512GB SSD", img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMTEXklAgxzJt0zx4qXDVoaL1VtN_oDY7tlw&s",price:1990 },
+    { name: "HP Pavilion", specs: "Intel Core i7, 16GB RAM, 512GB SSD", img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMTEXklAgxzJt0zx4qXDVoaL1VtN_oDY7tlw&s",price:1999 },
+    { name: "HP Pavilion", specs: "Intel Core i7, 16GB RAM, 512GB SSD", img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMTEXklAgxzJt0zx4qXDVoaL1VtN_oDY7tlw&s",price:1779 },
 
 
 
@@ -238,19 +238,50 @@ function showComputers(brand) {
     });
 }
 
+
+
+function showComputersDefault(brand) {
+    const computersList = document.getElementById('computers-list');
+    // computersList.innerHTML = ''; // Clear previous results
+
+    const computers = computersData[brand];
+    computers.forEach(computer => {
+        const computerDiv = document.createElement('div');
+        computerDiv.classList.add('computer');
+        computerDiv.innerHTML = `
+            <img src="${computer.img}" alt="${computer.name}">
+            <h3>${computer.name}</h3>
+            <p>${computer.specs}</p>
+            <p>Qiymət: ${computer.price}</p>
+            <button class="details-btn" onclick="showDetails('${brand}', '${computer.name}')">Подробнее</button>
+            
+        `;
+        computersList.appendChild(computerDiv);
+    });
+}
+showComputersDefault("HP");
+
+
+let all = document.getElementById("all");
+let compList = document.getElementById("computers-list");
+
+
 function showDetails(brand, modelName) {
     const computerDetails = document.getElementById('computer-details');
     const computer = computersData[brand].find(c => c.name === modelName);
     computerDetails.innerHTML = `
    
+    <button  class="btt" onclick="closeWin()">Exit</button>
         <h3>${computer.name}</h3>
         <img src="${computer.img}" alt="${computer.name}">
-        <p><strong>Характеристики:</strong> ${computer.specs}</p>
+        <p><strong>Характеристики:</strong> <br> ${computer.specs}</p>
        
-        <p>nomerə:+994-050-621-5056</p>
-         <button  class="btt" onclick="closeWin()">çıxmaq</button>
+        <p>Nömrə: <br>
+        +994-050-621-5056</p>
     `;
     computerDetails.classList.add('open');
+    all.classList.add("open");
+    compList.classList.add("st");
 }
 
 function startShopping(){
@@ -264,7 +295,10 @@ function s(){
 
 const computersLis = document.getElementById('computer-details');
 function closeWin() {
-    computersLis.style.display = "none";
+    // computersLis.style.display = "none";
+    computersLis.classList.remove("open");
+    all.classList.remove("open");
+    compList.classList.remove("st");
 }
 
 
@@ -276,12 +310,13 @@ window.onload = function() {
 
     computers.forEach(computer => {
         const computerDiv = document.createElement('div');
-        computerDiv.className = 'computer-item';
+        computerDiv.className = 'computer';
         computerDiv.innerHTML = `
             <img src="${computer.image}" alt="${computer.name}" style="max-width: 100px;">
             <h3>${computer.name}</h3>
             <p>номер: ${computer.id}</p>
             <p>Цена: ${computer.price}</p>
+            <button class="details-btn" onclick="showDetails('${computer.brand}', '${computer.name}')">Подробнее</button>
         `;
         computersList.appendChild(computerDiv);
     });

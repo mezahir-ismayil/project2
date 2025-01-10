@@ -6,6 +6,9 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
 }
 .form-container {
     background: rgb(255, 255, 255);
